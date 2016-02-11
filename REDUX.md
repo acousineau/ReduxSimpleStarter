@@ -50,5 +50,3 @@ Allows for mapping between Redux and React
 5. Depending on what the action is - reducers can choose to return a different piece of state depending on the action
 6. That new piece of state gets updated on the overall Application State
 7. New State then notifies the **CONTAINERS** (components) of the changes to state and re-render the new props
-
-
