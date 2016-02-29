@@ -1,4 +1,4 @@
-export function selectBook(book) {
+export const selectBook = (book) => {
 
   // console.log(`Action triggered: ${book.title}`);
 
@@ -6,6 +6,6 @@ export function selectBook(book) {
   // Object with a 'type' property
   return {
     type: 'BOOK_SELECTED',
-    payload: book
-  };
-};
+    book: book
+  }
+}
